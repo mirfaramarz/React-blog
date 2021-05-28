@@ -1,0 +1,64 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "blogCategory": "Photo one",
+            "blogTitle" : "Photo one description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-1.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        },
+        {
+            "id": 2,
+            "blogCategory": "Photo two",
+            "blogTitle" : "Photo two description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-2.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        },
+        {
+            "id": 3,
+            "blogCategory": "Photo three",
+            "blogTitle" : "Photo three description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-3.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        },
+        {
+            "id": 4,
+            "blogCategory": "Photo four",
+            "blogTitle" : "Photo four description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-4.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        },
+        {
+            "id": 5,
+            "blogCategory": "Photo five",
+            "blogTitle" : "Photo five description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-2.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        },
+        {
+            "id": 6,
+            "blogCategory": "Photo six",
+            "blogTitle" : "Photo six description",
+            "slug": "",
+            "postedOn": "14.09.1991",
+            "author": "Faramarz",
+            "blogImage": "/images/Ph-1.jpg",
+            "blogText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been"
+        }
+    ]
+}

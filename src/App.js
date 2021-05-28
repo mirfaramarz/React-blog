@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Hero from './components/Hero';
+import About from './containers/About';
+import Post from './containers/Post';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-function App() {
+import MainPage from './pages';
+import PageNotFound from './pages/404';
+
+class App extends Component {
+render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App"> 
+      <Hero /> 
+
+<div className="container">
+<Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route  path="/about" component={About} />
+        <Route exact path="/post/:postId" component={Post} />
+        <Route  component={PageNotFound} />
+       </Switch>
+</div>
+
+      </div>
+    </Router>
   );
+}
 }
 
 export default App;
